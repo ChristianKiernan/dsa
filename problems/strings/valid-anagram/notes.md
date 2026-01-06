@@ -6,7 +6,7 @@
    - `sMap` to store character frequencies for `s`
    - `tMap` to store character frequencies for `t`
 
-3. For each index `i` from `0` to `length(s) - 1`:
+3. For each index `i` from `0` to `length(s) - 1`: <br>
    3a. Insert `s[i]` into `sMap`  
        - If the key does not exist, initialize its value to `0`  
        - Increment the value by `1`  
@@ -36,5 +36,5 @@
 
 ---
 
-## Heuristic
-> When two strings must match by character composition, compare their frequency maps.
+## Notes
+- When two strings must match by character composition, compare their frequency maps.
