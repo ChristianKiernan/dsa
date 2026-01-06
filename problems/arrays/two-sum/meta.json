@@ -1,0 +1,21 @@
+{
+  "id": "lc-1",
+  "title": "Two Sum",
+  "source": "leetcode",
+  "url": "https://leetcode.com/problems/two-sum/",
+  "difficulty": "easy",
+  "patterns": [
+    "hashmap"
+  ],
+  "topics": [
+    "array",
+    "hash-table"
+  ],
+  "status": "active",
+  "language": [
+    "java"
+  ],
+  "created": "2026-01-06",
+  "solved_order": 3,
+  "solved_at": "2026-01-06T12:13:01.367947-05:00"
+}
