@@ -1,3 +1,5 @@
+# Valid Anagram
+
 ## Pseudocode
 
 1. If the lengths of `s` and `t` are not equal, return **false**.

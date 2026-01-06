@@ -1,3 +1,5 @@
+# Contains Duplicate
+
 ## Pseudocode
 
 1. Initialize an empty `ArrayList` to store integers.
