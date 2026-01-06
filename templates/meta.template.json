@@ -3,11 +3,13 @@
   "title": "",
   "source": "leetcode",
   "url": "",
-  "difficulty": "easy",
+  "difficulty": "",
   "patterns": [],
   "topics": [],
   "status": "active",
-  "language": ["java"],
+  "language": [
+    "java"
+  ],
   "created": "",
   "solved_order": null,
   "solved_at": null

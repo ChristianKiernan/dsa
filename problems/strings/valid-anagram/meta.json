@@ -1,0 +1,22 @@
+{
+  "id": "lc-242",
+  "title": "Valid Anagram",
+  "source": "leetcode",
+  "url": "https://leetcode.com/problems/valid-anagram/",
+  "difficulty": "easy",
+  "patterns": [
+    "hashmap",
+    "frequency-count"
+  ],
+  "topics": [
+    "string",
+    "hash-table"
+  ],
+  "status": "active",
+  "language": [
+    "java"
+  ],
+  "created": "2026-01-06",
+  "solved_order": 2,
+  "solved_at": "2026-01-06T07:10:00.000000-05:00"
+}
