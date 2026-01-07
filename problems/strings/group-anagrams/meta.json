@@ -1,0 +1,23 @@
+{
+  "id": "lc-49",
+  "title": "Group Anagrams",
+  "source": "leetcode",
+  "url": "https://leetcode.com/problems/group-anagrams/",
+  "difficulty": "medium",
+  "patterns": [
+    "frequency-count",
+    "hashmap",
+    "grouping"
+  ],
+  "topics": [
+    "string",
+    "hash-table"
+  ],
+  "status": "active",
+  "language": [
+    "java"
+  ],
+  "created": "2026-01-07",
+  "solved_order": 4,
+  "solved_at": "2026-01-07T11:07:12.276243-05:00"
+}
