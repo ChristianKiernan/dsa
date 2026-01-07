@@ -2,10 +2,10 @@
 
 ## What I Learned
 ### General
-- No explicit `int` → `Integer` conversion is required when adding to a collection, since Java performs autoboxing automatically.
+No explicit `int` → `Integer` conversion is required when adding to a collection, since Java performs autoboxing automatically.
 
 ### Methods
-- The `Set.add()` method returns a boolean, which can be used to detect duplicates in a single pass with early exit.
+The `Set.add()` method returns a boolean, which can be used to detect duplicates in a single pass with early exit.
 
 ---
 

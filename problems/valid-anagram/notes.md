@@ -14,8 +14,8 @@ for (int i = 0; i < s.length(); i++) {
 ---
 
 ## Optimal Complexity
-- **Time:** O(n + m)  
-- **Space:** O(1)
+**Time:** O(n + m)  
+**Space:** O(1)
 
 ---
 

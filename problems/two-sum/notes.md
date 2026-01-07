@@ -1,14 +1,14 @@
 # Two Sum 
 
 ## What I Learned
-+ Can use a hash map to store the value and index of each element in the array,
+Can use a hash map to store the value and index of each element in the array,
 then utilize the complement of the current element (one loop, as opposed to two). 
 ---
 
 ## Optimal Complexity
 
-- **Time:** O(n)
-- **Space:** O(n)
+**Time:** O(n)
+**Space:** O(n)
 
 ---
 
