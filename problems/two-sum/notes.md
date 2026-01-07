@@ -7,7 +7,7 @@ then utilize the complement of the current element (one loop, as opposed to two)
 
 ## Optimal Complexity
 
-**Time:** O(n)
+**Time:** O(n) <br>
 **Space:** O(n)
 
 ---

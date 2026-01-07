@@ -13,7 +13,7 @@ a parentheses type, so minimal validation is required. This was also part of the
 ---
 
 ## Optimal Complexity
-**Time:** O(n)
+**Time:** O(n) <br>
 **Space:** O(n)
 
 ---
