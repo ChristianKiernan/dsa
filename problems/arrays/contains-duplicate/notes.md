@@ -1,34 +1,25 @@
 # Contains Duplicate
 
-## Pseudocode
-
-1. Initialize an empty `ArrayList` to store integers.
-
-2. Iterate through the input int array: <br>
-   2a. For each int: <br>
-       - Convert it to an `Integer`. <br>
-       - Add it to the `ArrayList`.
-
-3. Initialize a `HashSet` using the values from the `ArrayList`.
-
-4. Compare the sizes of the `ArrayList` and the `HashSet`: <br>
-   4a. If the sizes are different, a duplicate exists → return **true**.  
-   4b. Otherwise, return **false**.
-
----
-
-## Complexity
-- **Time:** O(n)  
-- **Space:** O(n)
-
----
-
-## Edge Cases
-- Empty array
-- Single element
-
----
-
-## Notes
-- Canonical solution: the `Set.add()` method returns a boolean, which can be used to detect duplicates in a single pass with early exit.
+## What I Learned
+### General
 - No explicit `int` → `Integer` conversion is required when adding to a collection, since Java performs autoboxing automatically.
+
+### Methods
+- The `Set.add()` method returns a boolean, which can be used to detect duplicates in a single pass with early exit.
+
+---
+
+## Optimal Complexity
+**Time:** O(n) <br>
+**Space:** O(n)
+
+---
+
+## An Optimal Algorithm
+1. Convert the array into a hash set, which removes duplicates.
+2. Compare the size of the set with the size of the original array.
+3. If the set is smaller, return `True` because duplicates must have been removed.
+4. Otherwise, return `False`.
+
+---
+

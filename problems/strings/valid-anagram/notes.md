@@ -1,42 +1,30 @@
 # Valid Anagram
 
-## Pseudocode
-
-1. If the lengths of `s` and `t` are not equal, return **false**.
-
-2. Initialize two HashMaps:
-   - `sMap` to store character frequencies for `s`
-   - `tMap` to store character frequencies for `t`
-
-3. For each index `i` from `0` to `length(s) - 1`: <br>
-   3a. Insert `s[i]` into `sMap`  
-       - If the key does not exist, initialize its value to `0`  
-       - Increment the value by `1`  
-   3b. Insert `t[i]` into `tMap`  
-       - If the key does not exist, initialize its value to `0`  
-       - Increment the value by `1`
-
-4. For each key in `sMap`:
-   4a. Compare `sMap[key]` with `tMap[key]`  
-   4b. If the values are not equal, return **false**
-
-5. If all keys match in frequency, return **true**
-
+## What I Learned
+### General
++ Incrementing and decrementing frequency in the same loop (for string s and t respectively) is a more efficent
+approach than storing the frequencies in two separate structures and comparing them afterwards. 
++ A pattern to map letters to their frequencies: <br>
+```java
+int[] freq = new int[26];
+for (int i = 0; i < s.length(); i++) {
+    freq[str.charAt(i) - 'a']++;
+}
+``` 
 ---
 
-## Complexity
+## Optimal Complexity
 - **Time:** O(n + m)  
-- **Space:** O(n)
+- **Space:** O(1)
 
 ---
 
-## Edge Cases
-- Strings of different lengths  
-- Empty strings  
-- Same characters but different frequencies  
-- Same length but different character sets  
-
----
-
-## Notes
-- When two strings must match by character composition, compare their frequency maps.
+## An Optimal Algorithm
+1. If the lengths of the strings differ, return `False` immediately.
+2. Create a frequency array count of size `26` initialized to zero.
+3. Iterate through both strings: 
+   - Increment the count at the index corresponding to `s[i]`.
+   - Decrement the count at the index corresponding to `t[i]`.
+4. After processing both strings, scan through the count array:
+   - If any value is not zero, return `False` because the frequencies differ.
+5. If all values are zero, return `True` since the strings are anagrams.

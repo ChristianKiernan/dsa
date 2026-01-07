@@ -2,7 +2,7 @@ import json, sys, glob
 from datetime import datetime
 
 if len(sys.argv) != 2:
-    print("Usage: python scripts/mark_solved.py path/to/meta.json")
+    print("Usage: python3 scripts/mark_solved.py path/to/meta.json")
     sys.exit(1)
 
 target = sys.argv[1]
