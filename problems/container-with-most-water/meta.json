@@ -1,0 +1,22 @@
+{
+  "id": "lc-11",
+  "title": "Container With Most Water",
+  "source": "leetcode",
+  "url": "https://leetcode.com/problems/container-with-most-water/",
+  "difficulty": "medium",
+  "patterns": [
+    "two-pointers"
+  ],
+  "topics": [
+    "array",
+    "two-pointers",
+    "greedy"
+  ],
+  "status": "active",
+  "language": [
+    "java"
+  ],
+  "created": "2026-01-07",
+  "solved_order": 7,
+  "solved_at": "2026-01-08T11:40:03.449344-05:00"
+}
