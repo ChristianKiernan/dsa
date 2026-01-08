@@ -4,9 +4,18 @@
   "source": "leetcode",
   "url": "https://leetcode.com/problems/valid-parentheses/",
   "difficulty": "easy",
-  "patterns": ["stack"],
-  "topics": ["string", "stack"],
+  "patterns": [
+    "stack"
+  ],
+  "topics": [
+    "string",
+    "stack"
+  ],
   "status": "active",
-  "language": ["java"],
-  "created": "2026-01-07"
+  "language": [
+    "java"
+  ],
+  "created": "2026-01-07",
+  "solved_order": 5,
+  "solved_at": "2026-01-07T16:56:55.787868-05:00"
 }

@@ -1,0 +1,21 @@
+{
+  "id": "lc-125",
+  "title": "Valid Palindrome",
+  "source": "leetcode",
+  "url": "https://leetcode.com/problems/valid-palindrome/",
+  "difficulty": "easy",
+  "patterns": [
+    "two-pointers"
+  ],
+  "topics": [
+    "string",
+    "two-pointers"
+  ],
+  "status": "active",
+  "language": [
+    "java"
+  ],
+  "created": "2026-01-07",
+  "solved_order": 6,
+  "solved_at": "2026-01-08T06:23:12.075677-05:00"
+}
