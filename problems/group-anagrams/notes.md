@@ -1,10 +1,12 @@
 # Group Anagrams
 
-## What I Learned
-### Methods
-- The `map.computeIfAbsent()` and `map.putIfAbsent` methods save manual steps (e.g. checking if the key exists)
-- `Arrays.toString` can be used to print an array (fewer steps than initializing a StringBuilder object)
----
+## Heuristics
+1. Use a hash map to store the anagrams, and an `int[]`  of size `26` to represent the frequencies of each character.
+2. The `map.computeIfAbsent()` method saves manual steps 
+```java
+String key = Arrays.toString(freqs);
+map.computeIfAbsent(key, k -> new ArrayList<>()).add(str)
+```
 
 ## Optimal Complexity
 **Time:** O(m * n) <br>

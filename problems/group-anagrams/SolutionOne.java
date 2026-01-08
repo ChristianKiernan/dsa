@@ -5,7 +5,7 @@ import java.util.Map;
 
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        Map<String, List<String>> anagrams = new HashMap<>();
+        HashMap<String, List<String>> anagrams = new HashMap<>();
 
         for (String str : strs) {
             int[] frequency = new int[26];

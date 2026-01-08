@@ -1,8 +1,9 @@
 # Two Sum 
 
-## What I Learned
-Can use a hash map to store the value and index of each element in the array,
-then utilize the complement of the current element (one loop, as opposed to two). 
+## Heuristics
+1) Single pass (one for-loop) for insertion and lookup
+2) HashMap uses the value of the element in the array as the key and the index as the value.
+
 ---
 
 ## Optimal Complexity
@@ -11,7 +12,6 @@ then utilize the complement of the current element (one loop, as opposed to two)
 **Space:** O(n)
 
 ---
-
 
 ## Optimal Algorithm
 1. Create a hash map to store the value and index of each element in the array.
