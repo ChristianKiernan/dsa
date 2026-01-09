@@ -1,0 +1,22 @@
+{
+  "id": "lc-739",
+  "title": "Daily Temperatures",
+  "source": "leetcode",
+  "url": "https://leetcode.com/problems/daily-temperatures/",
+  "difficulty": "medium",
+  "patterns": [
+    "monotonic-stack"
+  ],
+  "topics": [
+    "array",
+    "stack",
+    "monotonic-stack"
+  ],
+  "status": "active",
+  "language": [
+    "java"
+  ],
+  "created": "2026-01-09",
+  "solved_order": 10,
+  "solved_at": "2026-01-09T06:38:36.956473-05:00"
+}
