@@ -1,16 +1,10 @@
 # Valid Anagram
 
-## What I Learned
-### General
-+ Incrementing and decrementing frequency in the same loop (for string s and t respectively) is a more efficent
-approach than storing the frequencies in two separate structures and comparing them afterwards. 
-+ A pattern to map letters to their frequencies: <br>
-```java
-int[] freq = new int[26];
-for (int i = 0; i < s.length(); i++) {
-    freq[str.charAt(i) - 'a']++;
-}
-``` 
+## Heuristics
+1. The most intuitive approach is to use two maps, mapping letters to their frequencies, and then comparing their
+equality.
+2. Incrementing and decrementing frequency in the same loop (for string s and t respectively) is an alternative
+approach. 
 ---
 
 ## Optimal Complexity
