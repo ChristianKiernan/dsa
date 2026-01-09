@@ -1,0 +1,22 @@
+{
+  "id": "lc-167",
+  "title": "Two Sum II - Input Array Is Sorted",
+  "source": "leetcode",
+  "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+  "difficulty": "medium",
+  "patterns": [
+    "two-pointers"
+  ],
+  "topics": [
+    "array",
+    "two-pointers",
+    "binary-search"
+  ],
+  "status": "active",
+  "language": [
+    "java"
+  ],
+  "created": "2026-01-09",
+  "solved_order": 9,
+  "solved_at": "2026-01-09T05:06:14.758821-05:00"
+}
