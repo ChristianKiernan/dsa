@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class MinStack {
+public class MinStack {
     private Stack<Integer> stack;
     private Stack<Integer> minStack;
 

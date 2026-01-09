@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-class Solution {
+public class Solution {
     public boolean isValid(String s) {
         Map<Character, Character> map = new HashMap<>();
         Stack<Character> stack = new Stack<>();

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-class Solution {
+public class Solution {
     public boolean hasDuplicate(int[] nums) {
         ArrayList<Integer> wrapperArray = new ArrayList<>();
 

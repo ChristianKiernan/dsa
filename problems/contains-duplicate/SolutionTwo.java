@@ -1,7 +1,7 @@
 import java.util.Set;
 import java.util.HashSet;
 
-class Solution {
+public class Solution {
     public boolean hasDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<>();
 

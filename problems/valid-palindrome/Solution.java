@@ -1,4 +1,4 @@
-class Solution {
+public class Solution {
     public boolean isPalindrome(String s) {
         String cleaned = s.replaceAll("\\P{IsAlnum}", "").toLowerCase();
         int pointerOne = 0;
