@@ -1,15 +1,10 @@
 # Valid Parentheses
 
-## Concepts
-### Data Structures
-Stack and (optionally) map
-
-### Approach
-Use the map to map each closing parentheses to its corresponding opening parentheses. 
-Returning an empty stack signifies that the parentheses are valid.
-Pop stack on valid closing parentheses, push stack on all other characters (the constraints ensure each character is
-a parentheses type, so minimal validation is required. This was also part of the motivation for implementing a map.
-
+### Heuristics
+1. One approach is to use a map to pair each closing parentheses with its corresponding opening parentheses; 
+returning an empty stack signifies that the parentheses are valid.
+2. An alternative approach is to simply push opening parantheses onto the stack,
+and then ensure that each closing parentheses is paired with the corresponding opening parentheses (popped off the stack).
 ---
 
 ## Optimal Complexity
