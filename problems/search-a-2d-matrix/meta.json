@@ -1,0 +1,22 @@
+{
+  "id": "lc-74",
+  "title": "Search a 2D Matrix",
+  "source": "leetcode",
+  "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+  "difficulty": "medium",
+  "patterns": [
+    "binary-search"
+  ],
+  "topics": [
+    "array",
+    "binary-search",
+    "matrix"
+  ],
+  "status": "active",
+  "language": [
+    "java"
+  ],
+  "created": "2026-01-12",
+  "solved_order": 13,
+  "solved_at": "2026-01-12T13:42:10.361608-05:00"
+}
