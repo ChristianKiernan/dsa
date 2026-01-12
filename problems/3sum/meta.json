@@ -1,0 +1,23 @@
+{
+  "id": "lc-15",
+  "title": "3Sum",
+  "source": "leetcode",
+  "url": "https://leetcode.com/problems/3sum/",
+  "difficulty": "medium",
+  "patterns": [
+    "two-pointers",
+    "sorting"
+  ],
+  "topics": [
+    "array",
+    "two-pointers",
+    "sorting"
+  ],
+  "status": "active",
+  "language": [
+    "java"
+  ],
+  "created": "2026-01-12",
+  "solved_order": 11,
+  "solved_at": "2026-01-12T10:44:14.007672-05:00"
+}
