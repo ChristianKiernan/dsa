@@ -1,0 +1,21 @@
+{
+  "id": "lc-704",
+  "title": "Binary Search",
+  "source": "leetcode",
+  "url": "https://leetcode.com/problems/binary-search/",
+  "difficulty": "easy",
+  "patterns": [
+    "binary-search"
+  ],
+  "topics": [
+    "array",
+    "binary-search"
+  ],
+  "status": "active",
+  "language": [
+    "java"
+  ],
+  "created": "2026-01-12",
+  "solved_order": 12,
+  "solved_at": "2026-01-12T11:53:09.757352-05:00"
+}
